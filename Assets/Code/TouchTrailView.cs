@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 namespace Mobile2D
 {
     internal sealed class TouchTrailView : MonoBehaviour

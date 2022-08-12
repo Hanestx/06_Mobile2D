@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Mobile2D
 {
-    public class CarController : BaseController
+    internal class CarController : BaseController
     {
         private readonly ResourcePath _viewPath = new ResourcePath{PathResource = "Prefabs/Car"};
         private readonly CarView _carView;

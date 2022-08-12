@@ -6,6 +6,7 @@ namespace Mobile2D
     {
         private T _value;
         private Action<T> _onChangeValue;
+        
         public T Value
         {
             get => _value;

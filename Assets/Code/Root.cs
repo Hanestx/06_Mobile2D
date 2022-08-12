@@ -1,25 +1,24 @@
-using System;
 using UnityEngine;
 
 namespace Mobile2D
 {
-    public class Root : MonoBehaviour
+    internal class Root : MonoBehaviour
     {
         [SerializeField] private Transform _placeForUi;
-        private ProfilePlayer profilePlayer;
+        private ProfilePlayer _profilePlayer;
         private float _speedCar = 15f;
         private MainController _mainController;
 
         private void Awake()
         {
-            profilePlayer = new ProfilePlayer(_speedCar);
-            profilePlayer.CurrentState.Value = GameState.Start;
-            _mainController = new MainController(_placeForUi, profilePlayer);
+            _profilePlayer = new ProfilePlayer(_speedCar);
+            _profilePlayer.CurrentState.Value = GameState.Start;
+            _mainController = new MainController(_placeForUi, _profilePlayer);
         }
 
         private void Update()
         {
-            if (profilePlayer.CurrentState.Value == GameState.Start)
+            if (_profilePlayer.CurrentState.Value == GameState.Start)
                 _mainController.Execute();
         }
 

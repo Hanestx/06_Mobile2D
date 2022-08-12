@@ -1,6 +1,6 @@
 namespace Mobile2D
 {
-    public class GameController : BaseController
+    internal class GameController : BaseController
     {
         public GameController()
         {

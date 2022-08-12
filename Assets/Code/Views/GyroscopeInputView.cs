@@ -1,7 +1,6 @@
 using JoostenProductions;
 using UnityEngine;
 
-
 namespace Mobile2D
 {
     internal class GyroscopeInputView : BaseInputView
@@ -22,6 +21,7 @@ namespace Mobile2D
         {
             if (!SystemInfo.supportsGyroscope)
                 return;
+            
             Quaternion quaternion = Input.gyro.attitude;
             quaternion.Normalize();
             OnRightMove((quaternion.x + quaternion.y) * Time.deltaTime * _speed);

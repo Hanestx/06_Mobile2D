@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-
 namespace Mobile2D
 {
-    public abstract class BaseController : IDisposable
+    internal abstract class BaseController : IDisposable
     {
         private List<BaseController> _baseControllers = new ();
         private List<GameObject> _gameObjects  = new ();
