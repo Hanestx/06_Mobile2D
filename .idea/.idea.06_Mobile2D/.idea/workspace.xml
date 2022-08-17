@@ -9,6 +9,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1212ad1dec44ce7b7147976b91869c3157800/a7/15260c90/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.1.4/Runtime/Purchasing/ConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@3.7.5/Runtime/Advertisement/IUnityAdsListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.1.4/Runtime/Purchasing/IStoreListener.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,6 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660317724143</updated>
       <workItem from="1660317738754" duration="7318000" />
+      <workItem from="1660488978288" duration="901000" />
+      <workItem from="1660626783546" duration="21623000" />
     </task>
     <servers />
   </component>

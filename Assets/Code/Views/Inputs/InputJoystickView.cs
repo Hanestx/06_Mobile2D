@@ -8,7 +8,6 @@ namespace Mobile2D
     {
         public override void Init(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove, float speed)
         {
-            print("Инициализация");
             base.Init(leftMove, rightMove, speed);
             UpdateManager.SubscribeToUpdate(Move);
         }

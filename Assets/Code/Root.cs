@@ -5,13 +5,15 @@ namespace Mobile2D
     internal class Root : MonoBehaviour
     {
         [SerializeField] private Transform _placeForUi;
+        [SerializeField] private UnityAdsTools _unityAdsTools;
+        
         private ProfilePlayer _profilePlayer;
-        private float _speedCar = 15f;
         private MainController _mainController;
+        private float _speedCar = 15f;
 
-        private void Awake()
+        private void Start()
         {
-            _profilePlayer = new ProfilePlayer(_speedCar);
+            _profilePlayer = new ProfilePlayer(_speedCar, _unityAdsTools);
             _profilePlayer.CurrentState.Value = GameState.Start;
             _mainController = new MainController(_placeForUi, _profilePlayer);
         }

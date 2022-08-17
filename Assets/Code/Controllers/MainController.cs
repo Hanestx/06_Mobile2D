@@ -36,7 +36,7 @@ namespace Mobile2D
                     _gameController?.Dispose();
                     break;
                 case GameState.Game:
-                    _gameController = new GameController();
+                    _gameController = new GameController(_profilePlayer);
                     _mainMenuController?.Dispose();
                     _touchTrailController?.Dispose();
                     break;
