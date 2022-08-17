@@ -1,25 +1,26 @@
-using System;
 using UnityEngine;
 
 namespace Mobile2D
 {
-    public class Root : MonoBehaviour
+    internal class Root : MonoBehaviour
     {
         [SerializeField] private Transform _placeForUi;
-        private ProfilePlayer profilePlayer;
-        private float _speedCar = 15f;
+        [SerializeField] private UnityAdsTools _unityAdsTools;
+        
+        private ProfilePlayer _profilePlayer;
         private MainController _mainController;
+        private float _speedCar = 15f;
 
-        private void Awake()
+        private void Start()
         {
-            profilePlayer = new ProfilePlayer(_speedCar);
-            profilePlayer.CurrentState.Value = GameState.Start;
-            _mainController = new MainController(_placeForUi, profilePlayer);
+            _profilePlayer = new ProfilePlayer(_speedCar, _unityAdsTools);
+            _profilePlayer.CurrentState.Value = GameState.Start;
+            _mainController = new MainController(_placeForUi, _profilePlayer);
         }
 
         private void Update()
         {
-            if (profilePlayer.CurrentState.Value == GameState.Start)
+            if (_profilePlayer.CurrentState.Value == GameState.Start)
                 _mainController.Execute();
         }
 

@@ -10,6 +10,7 @@ namespace Mobile2D
             base.Init(leftMove, rightMove, speed);
             UpdateManager.SubscribeToUpdate(Move);
         }
+        
         private void OnDestroy()
         {
             UpdateManager.UnsubscribeFromUpdate(Move);
@@ -27,5 +28,4 @@ namespace Mobile2D
             OnRightMove(direction.sqrMagnitude / 20 * _speed);
         }
     }
-
 }

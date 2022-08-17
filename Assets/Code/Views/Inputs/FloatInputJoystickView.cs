@@ -3,10 +3,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityStandardAssets.CrossPlatformInput;
 
-
 namespace Mobile2D
 {
-    internal class FloatInputJoystick : BaseInputView, IPointerDownHandler, IPointerUpHandler, IDragHandler
+    internal class FloatInputJoystickView : BaseInputView, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
         [SerializeField] private Joystick _joystick;
         [SerializeField] private CanvasGroup _container;

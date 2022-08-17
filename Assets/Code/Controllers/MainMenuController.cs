@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Advertisements;
 
 namespace Mobile2D
 {
@@ -25,6 +26,9 @@ namespace Mobile2D
         private void StartGame()
         {
             _profilePlayer.CurrentState.Value = GameState.Game;
+            _profilePlayer.AnalyticTools.SendMessage("Start_game", ("time_start", Time.realtimeSinceStartup));
+            _profilePlayer.AdsShower.ShowVideo();
+            Advertisement.AddListener(_profilePlayer.AdsListener);
         }
     }
 }

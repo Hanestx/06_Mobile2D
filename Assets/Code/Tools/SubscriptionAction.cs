@@ -1,6 +1,5 @@
 using System;
 
-
 namespace Mobile2D
 {
     internal class SubscriptionAction : IReadOnlySubscriptionAction

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Mobile2D
 {
-    public class TouchTrailController : BaseController
+    internal class TouchTrailController : BaseController
     {
         private readonly ResourcePath _viewPath = new ResourcePath{PathResource = "Prefabs/TrailMaker"};
         private readonly TouchTrailView _trailView;
@@ -61,8 +61,7 @@ namespace Mobile2D
 
         private void CreateCurrentTrail()
         {
-            _currentTrail = Object.Instantiate(_trailPrefab);
-            _currentTrail.transform.SetParent(_trailView.gameObject.transform, true);
+            _currentTrail = Object.Instantiate(_trailPrefab, _trailView.gameObject.transform, true);
         }
 
         private void AddPoint()
