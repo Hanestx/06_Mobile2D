@@ -377,6 +377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _placeForUi: {fileID: 2011502605}
   _unityAdsTools: {fileID: 1704056200}
+  _itemConfigs:
+  - {fileID: 11400000, guid: feefedb0f77796d4ca667b38f05f429d, type: 2}
+  - {fileID: 11400000, guid: 6d368ef49fe84134cb0ccf8242d9001d, type: 2}
 --- !u!4 &1704056199
 Transform:
   m_ObjectHideFlags: 0

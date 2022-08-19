@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Mobile2D
 {
-    internal class CarController : BaseController
+    internal class CarController : BaseController, IAbilityActivator
     {
         private readonly ResourcePath _viewPath = new ResourcePath{PathResource = "Prefabs/Car"};
         private readonly CarView _carView;
@@ -23,5 +23,16 @@ namespace Mobile2D
         {
             return _carView.gameObject;
         }
+
+        public GameObject GetViewObject()
+        {
+            throw new System.NotImplementedException();
+        }
+        
+        /*private void OnAbilityUseRequested(object sender, IItem e)
+        {
+            if (_abilityRepository.AbilityMapByItemId.TryGetValue(e.Id, out var ability))
+                ability.Apply(_abilityActivator);
+        }*/
     }
 }
