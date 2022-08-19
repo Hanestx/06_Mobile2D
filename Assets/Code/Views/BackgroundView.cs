@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Mobile2D
 {
-    internal class Background : MonoBehaviour
+    internal class BackgroundView : MonoBehaviour
     {
         [SerializeField] private float _leftBorder;
         [SerializeField] private float _rightBorder;

@@ -1,6 +1,6 @@
 namespace Mobile2D
 {
-    public enum GameState
+    internal enum GameState
     {
         None,
         Start,
