@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 namespace Mobile2D
 {
     internal class TapeBackgroundController : BaseController
@@ -9,8 +10,9 @@ namespace Mobile2D
         private readonly SubscriptionProperty<float> _diff;
         private readonly IReadOnlySubscriptionProperty<float> _leftMove;
         private readonly IReadOnlySubscriptionProperty<float> _rightMove;
-        
-        public TapeBackgroundController(IReadOnlySubscriptionProperty<float> leftMove, IReadOnlySubscriptionProperty<float> rightMove)
+
+        public TapeBackgroundController(IReadOnlySubscriptionProperty<float> leftMove,
+            IReadOnlySubscriptionProperty<float> rightMove)
         {
             _view = LoadView();
             _diff = new SubscriptionProperty<float>();
@@ -23,7 +25,7 @@ namespace Mobile2D
             _leftMove.SubscribeOnChange(Move);
             _rightMove.SubscribeOnChange(Move);
         }
-        
+
         protected override void OnDispose()
         {
             _leftMove.UnSubscriptionOnChange(Move);

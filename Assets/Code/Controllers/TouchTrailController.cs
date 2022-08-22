@@ -1,20 +1,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Mobile2D
 {
     internal class TouchTrailController : BaseController
     {
-        private readonly ResourcePath _viewPath = new ResourcePath{PathResource = "Prefabs/TrailMaker"};
+        private readonly ResourcePath _viewPath = new ResourcePath {PathResource = "Prefabs/TrailMaker"};
         private readonly TouchTrailView _trailView;
-        
+
         private List<Vector3> _points = new List<Vector3>();
         private LineRenderer _currentTrail;
         private LineRenderer _trailPrefab;
         private Camera _cameraTrail;
         private float _clearSpeed;
         private float _distanceFromCamera;
-        
+
         public TouchTrailController()
         {
             _trailView = LoadView();
@@ -30,7 +31,7 @@ namespace Mobile2D
             AddGameObjects(objView);
             return objView.GetComponent<TouchTrailView>();
         }
-        
+
         public void Execute()
         {
             if (Input.GetMouseButtonDown(0))

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 
+
 namespace Mobile2D
+
 {
     internal class InventoryModel : IInventoryModel
     {
@@ -16,16 +18,16 @@ namespace Mobile2D
         {
             if (_items.Contains(item))
                 return;
-            
+
             _items.Add(item);
         }
 
         public void UnequipItem(IItem item)
         {
-            if (!_items.Contains(item)) 
+            if (!_items.Contains(item))
                 return;
-            
+
             _items.Remove(item);
         }
     }
-} 
+}

@@ -1,6 +1,6 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 namespace Mobile2D
 {
@@ -10,7 +10,7 @@ namespace Mobile2D
         private TouchTrailController _touchTrailController;
         private GameController _gameController;
         private InventoryController _inventoryController;
-        
+
         private readonly Transform _placeForUi;
         private readonly ProfilePlayer _profilePlayer;
         private readonly List<ItemConfig> _itemsConfig;
@@ -57,7 +57,7 @@ namespace Mobile2D
         {
             _touchTrailController.Execute();
         }
-        
+
         private void AllDispose()
         {
             _gameController?.Dispose();

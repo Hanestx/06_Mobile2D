@@ -1,6 +1,6 @@
-using System;
 using UnityEngine;
 using UnityEngine.Advertisements;
+
 
 namespace Mobile2D
 {
@@ -13,14 +13,14 @@ namespace Mobile2D
 
         private void Awake()
         {
-            Advertisement.Initialize (_gameId, true);
+            Advertisement.Initialize(_gameId, true);
         }
 
         public void ShowInterstitial()
         {
             Advertisement.Show(_interstitialPlace);
         }
-        
+
         public void ShowVideo()
         {
             Advertisement.Show(_rewardPlace);
@@ -31,9 +31,17 @@ namespace Mobile2D
             Advertisement.Show(_bannerPlacementId);
         }
 
-        public void OnUnityAdsDidError(string message) {}
-        public void OnUnityAdsReady(string placementId) { }
-        public void OnUnityAdsDidStart(string placementId) { }
+        public void OnUnityAdsDidError(string message)
+        {
+        }
+
+        public void OnUnityAdsReady(string placementId)
+        {
+        }
+
+        public void OnUnityAdsDidStart(string placementId)
+        {
+        }
 
         public void OnUnityAdsDidFinish(string placementId, ShowResult showResult)
         {

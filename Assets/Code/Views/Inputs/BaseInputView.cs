@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 namespace Mobile2D
 {
     internal abstract class BaseInputView : MonoBehaviour
@@ -8,7 +9,8 @@ namespace Mobile2D
         private SubscriptionProperty<float> _leftMove;
         private SubscriptionProperty<float> _rightMove;
 
-        public virtual void Init(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove, float speed)
+        public virtual void Init(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove,
+            float speed)
         {
             _leftMove = leftMove;
             _rightMove = rightMove;
@@ -19,7 +21,7 @@ namespace Mobile2D
         {
             _leftMove.Value = value;
         }
-        
+
         protected virtual void OnRightMove(float value)
         {
             _rightMove.Value = value;

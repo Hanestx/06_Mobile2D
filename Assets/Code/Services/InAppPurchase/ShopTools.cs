@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine.Purchasing;
 
+
 namespace Mobile2D
 {
     internal class ShopTools : IShop //, IStoreListener
@@ -109,6 +110,8 @@ eTransactionFinished);
 #endif
         }
 
-        private void OnRestoreFinished(bool isSuccess) { }
+        private void OnRestoreFinished(bool isSuccess)
+        {
+        }
     }
 }

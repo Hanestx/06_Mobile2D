@@ -1,6 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
+
 namespace Mobile2D
 {
     internal class Root : MonoBehaviour
@@ -8,7 +9,7 @@ namespace Mobile2D
         [SerializeField] private Transform _placeForUi;
         [SerializeField] private UnityAdsTools _unityAdsTools;
         [SerializeField] private ItemConfig[] _itemConfigs;
-        
+
         private ProfilePlayer _profilePlayer;
         private MainController _mainController;
         private float _speedCar = 15f;

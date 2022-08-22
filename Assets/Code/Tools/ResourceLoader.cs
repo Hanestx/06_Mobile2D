@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 namespace Mobile2D
 {
     internal static class ResourceLoader
@@ -8,11 +9,10 @@ namespace Mobile2D
         {
             return Resources.Load<Sprite>(path.PathResource);
         }
-        
+
         public static GameObject LoadPrefab(ResourcePath path)
         {
             return Resources.Load<GameObject>(path.PathResource);
         }
     }
-
 }

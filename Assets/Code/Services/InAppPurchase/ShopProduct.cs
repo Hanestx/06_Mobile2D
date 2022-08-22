@@ -1,5 +1,6 @@
 using UnityEngine.Purchasing;
 
+
 namespace Mobile2D
 {
     internal class ShopProduct : IShop
@@ -9,8 +10,14 @@ namespace Mobile2D
         public ProductType CurrentProductType;
 
         public string GetCost(string productID) => cost;
-        public void Buy(string id) {}
-        public void RestorePurchase() {}
+
+        public void Buy(string id)
+        {
+        }
+
+        public void RestorePurchase()
+        {
+        }
 
         public IReadOnlySubscriptionAction OnSuccessPurchase { get; }
         public IReadOnlySubscriptionAction OnFailedPurchase { get; }

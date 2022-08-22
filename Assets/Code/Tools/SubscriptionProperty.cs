@@ -1,12 +1,13 @@
 using System;
 
+
 namespace Mobile2D
 {
     internal class SubscriptionProperty<T> : IReadOnlySubscriptionProperty<T>
     {
         private T _value;
         private Action<T> _onChangeValue;
-        
+
         public T Value
         {
             get => _value;
@@ -16,16 +17,15 @@ namespace Mobile2D
                 _onChangeValue?.Invoke(_value);
             }
         }
-        
+
         public void SubscribeOnChange(Action<T> subscriptionAction)
         {
             _onChangeValue += subscriptionAction;
         }
-        
+
         public void UnSubscriptionOnChange(Action<T> unsubscriptionAction)
         {
             _onChangeValue -= unsubscriptionAction;
         }
     }
-
 }
