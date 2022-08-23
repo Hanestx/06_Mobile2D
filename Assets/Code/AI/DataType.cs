@@ -4,6 +4,7 @@ namespace Mobile2D.AI
     {
         Money,
         Power,
-        Health
+        Health,
+        Criminal
     }
 }

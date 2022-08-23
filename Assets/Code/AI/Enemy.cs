@@ -43,7 +43,7 @@ namespace Mobile2D.AI
         {
             get
             {
-                var power = _moneyPlayer + _healthPlayer - _powerPlayer;
+                var power = (_powerPlayer + _healthPlayer) / 2 + _moneyPlayer;
                 return power;
             }
         }

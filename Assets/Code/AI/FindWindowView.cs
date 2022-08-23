@@ -10,8 +10,9 @@ namespace Mobile2D.AI
         [SerializeField] private TMP_Text _countMoneyText;
         [SerializeField] private TMP_Text _countHealthText;
         [SerializeField] private TMP_Text _countPowerText;
+        [SerializeField] private TMP_Text _countCriminalText;
         [SerializeField] private TMP_Text _countEnemyPowerText;
-        
+
         [SerializeField] private Button _addMoneyButton;
         [SerializeField] private Button _minusMoneyButton;
 
@@ -21,15 +22,21 @@ namespace Mobile2D.AI
         [SerializeField] private Button _addPowerButton;
         [SerializeField] private Button _minusPowerButton;
 
+        [SerializeField] private Button _addCriminalLevelButton;
+        [SerializeField] private Button _minusCriminalLevelButton;
+
         [SerializeField] private Button _fightButton;
+        [SerializeField] private Button _skipButton;
 
         private int _allCountMoneyPlayer;
         private int _allCountHealthPlayer;
         private int _allCountPowerPlayer;
+        private int _allCountCriminalPlayer = 5;
 
         private Money _money;
         private Health _health;
         private Power _power;
+        private Criminal _criminal;
 
         private Enemy _enemy;
 
@@ -46,6 +53,10 @@ namespace Mobile2D.AI
             _power = new Power();
             _power.Attach(_enemy);
 
+            _criminal = new Criminal();
+            _criminal.Attach(_enemy);
+            CheckCriminalLevel();
+
             _addMoneyButton.onClick.AddListener(() => ChangeMoney(true));
             _minusMoneyButton.onClick.AddListener(() => ChangeMoney(false));
 
@@ -55,7 +66,11 @@ namespace Mobile2D.AI
             _addPowerButton.onClick.AddListener(() => ChangePower(true));
             _minusPowerButton.onClick.AddListener(() => ChangePower(false));
 
+            _addCriminalLevelButton.onClick.AddListener(() => ChangeCriminal(true));
+            _minusCriminalLevelButton.onClick.AddListener(() => ChangeCriminal(false));
+
             _fightButton.onClick.AddListener(Fight);
+            _skipButton.onClick.AddListener(SkipLevel);
         }
 
         private void OnDestroy()
@@ -76,9 +91,36 @@ namespace Mobile2D.AI
             _power.Detach(_enemy);
         }
 
+        private void SkipLevel()
+        {
+            Debug.Log("You skip level");
+        }
+
         private void Fight()
         {
             Debug.Log(_allCountPowerPlayer >= _enemy.Power ? "Win" : "Lose");
+        }
+
+        private void ChangeCriminal(bool isAddCount)
+        {
+            if (isAddCount)
+                _allCountCriminalPlayer++;
+            else
+                _allCountCriminalPlayer--;
+
+            ChangeDataWindow(_allCountCriminalPlayer, DataType.Criminal);
+            CheckCriminalLevel();
+        }
+
+        private void CheckCriminalLevel()
+        {
+            if (_allCountCriminalPlayer < 0 || _allCountCriminalPlayer > 5)
+                return;
+
+            if (_allCountCriminalPlayer >= 3)
+                _skipButton.interactable = false;
+            else
+                _skipButton.interactable = true;
         }
 
         private void ChangePower(bool isAddCount)
@@ -126,6 +168,10 @@ namespace Mobile2D.AI
                 case DataType.Power:
                     _countPowerText.text = $"Player power: {countChangeData.ToString()}";
                     _power.CountPower = countChangeData;
+                    break;
+                case DataType.Criminal:
+                    _countCriminalText.text = $"Player criminal level: {countChangeData.ToString()}";
+                    _criminal.CriminalLevel = countChangeData;
                     break;
             }
 

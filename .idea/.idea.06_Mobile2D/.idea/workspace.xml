@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1212ad1dec44ce7b7147976b91869c3157800/a7/15260c90/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.1.4/Runtime/Purchasing/ConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
@@ -71,6 +79,7 @@
       <workItem from="1661183364339" duration="4467000" />
       <workItem from="1661195213921" duration="1346000" />
       <workItem from="1661237321433" duration="5768000" />
+      <workItem from="1661274549151" duration="2512000" />
     </task>
     <servers />
   </component>
