@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 
 namespace Mobile2D.Reward
@@ -12,10 +11,12 @@ namespace Mobile2D.Reward
         private readonly DailyRewardView _dailyRewardView;
         private List<ContainerSlotRewardView> _slots = new();
         private bool _isGetReward;
+        private RewardProgressBarView _rewardBarView;
 
         public DailyRewardController(DailyRewardView dailyRewardView)
         {
             _dailyRewardView = dailyRewardView;
+            _rewardBarView = _dailyRewardView.RewardBarView;
         }
 
         public void RefreshView()
@@ -38,10 +39,12 @@ namespace Mobile2D.Reward
             {
                 if (_dailyRewardView.TimeGetReward != null)
                 {
-                    var nextClaimTime = _dailyRewardView.TimeGetReward.Value.AddSeconds(_dailyRewardView.TimeCooldown);
+                    var nextClaimTime = _dailyRewardView.TimeGetReward.Value.AddSeconds(_dailyRewardView.TimeCooldownWeek);
                     var currentClaimCooldown = nextClaimTime - DateTime.UtcNow;
-                    var timeGetReward = $"{currentClaimCooldown.Hours:D2} : {currentClaimCooldown.Minutes:D2} : {currentClaimCooldown.Seconds:D2}";
+                    var timeGetReward = $"{currentClaimCooldown.Days:D2} : {currentClaimCooldown.Hours:D2} : {currentClaimCooldown.Minutes:D2} : {currentClaimCooldown.Seconds:D2}";
                     _dailyRewardView.TimerNewReward.text = $"Next reward: {timeGetReward}";
+                   
+                    SetCurrentFill(currentClaimCooldown);
                 }
             }
             
@@ -49,6 +52,14 @@ namespace Mobile2D.Reward
             {
                 _slots[i].SetData(_dailyRewardView.Rewards[i], i + 1, i == _dailyRewardView.CurrentSlotInActive);
             }
+        }
+        
+        private void SetCurrentFill(TimeSpan CurrentFill)
+        {
+            float maxAmount = _dailyRewardView.TimeCooldownWeek / _dailyRewardView.TimeCooldownDay;
+            var fillAmount = maxAmount / CurrentFill.Days - 1;
+            _rewardBarView.Mask.fillAmount = fillAmount;
+            _rewardBarView.TextTime = CurrentFill.Days.ToString();
         }
 
         private void SubscribeButtons()
@@ -108,7 +119,7 @@ namespace Mobile2D.Reward
                     _dailyRewardView.TimeGetReward = null;
                     _dailyRewardView.CurrentSlotInActive = 0;
                 }
-                else if (timeSpan.Seconds < _dailyRewardView.TimeCooldown)
+                else if (timeSpan.Seconds < _dailyRewardView.TimeCooldownDay)
                 {
                     _isGetReward = false;
                 }

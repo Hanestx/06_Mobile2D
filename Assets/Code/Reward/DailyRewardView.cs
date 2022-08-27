@@ -12,7 +12,8 @@ namespace Mobile2D.Reward
         private const string CurrentSlotInActiveKey = nameof(CurrentSlotInActiveKey);
         private const string TimeGetRewardKey = nameof(TimeGetRewardKey);
 
-        [SerializeField] private float _timeCooldown = 86400;
+        [SerializeField] private float _timeCooldownDay = 86400;
+        [SerializeField] private float _timeCooldownWeek = 604800;
         [SerializeField] private float _timeDeadline = 172800;
         [SerializeField] private List<Reward> _rewards;
         [SerializeField] private TMP_Text _timerNewReward;
@@ -20,8 +21,10 @@ namespace Mobile2D.Reward
         [SerializeField] private ContainerSlotRewardView _containerSlotRewardView;
         [SerializeField] private Button _getRewardButton;
         [SerializeField] private Button _resetButton;
+        [SerializeField] private RewardProgressBarView rewardBarView;
 
-        public float TimeCooldown => _timeCooldown;
+        public float TimeCooldownDay => _timeCooldownDay;
+        public float TimeCooldownWeek => _timeCooldownWeek;
         public float TimeDeadline => _timeDeadline;
         public List<Reward> Rewards => _rewards;
         public TMP_Text TimerNewReward => _timerNewReward;
@@ -29,6 +32,7 @@ namespace Mobile2D.Reward
         public ContainerSlotRewardView SlotRewardView => _containerSlotRewardView;
         public Button GetRewardButton => _getRewardButton;
         public Button ResetButton => _resetButton;
+        public RewardProgressBarView RewardBarView => rewardBarView;
 
         public int CurrentSlotInActive
         {
