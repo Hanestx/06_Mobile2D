@@ -27,7 +27,7 @@ namespace Mobile2D
 
         public GameObject GetViewObject()
         {
-            throw new System.NotImplementedException();
+            return _carView.gameObject;
         }
 
         /*private void OnAbilityUseRequested(object sender, IItem e)
