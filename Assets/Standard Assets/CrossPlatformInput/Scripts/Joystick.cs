@@ -119,5 +119,6 @@ namespace UnityStandardAssets.CrossPlatformInput
 		{
 			m_StartPos = position;
 		}
+
 	}
 }
