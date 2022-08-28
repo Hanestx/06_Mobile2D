@@ -380,6 +380,10 @@ MonoBehaviour:
   _itemConfigs:
   - {fileID: 11400000, guid: feefedb0f77796d4ca667b38f05f429d, type: 2}
   - {fileID: 11400000, guid: 6d368ef49fe84134cb0ccf8242d9001d, type: 2}
+  _dailyRewardView: {fileID: 7239848914824243023, guid: 727ba39a33613a946af3c0f8ffba1db7, type: 3}
+  _currencyView: {fileID: 6104449594907863723, guid: ba947628f72632d40b66b8a9e1cb61e0, type: 3}
+  _fightWindowView: {fileID: 8830673881043245769, guid: 566d79da23276f341a1e129a55459988, type: 3}
+  _startFightView: {fileID: -7911385649048205196, guid: afd7d1f218f741c4b8cbc53486872c81, type: 3}
 --- !u!4 &1704056199
 Transform:
   m_ObjectHideFlags: 0
@@ -463,9 +467,9 @@ RectTransform:
   m_Father: {fileID: 2011502605}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 194.00043, y: -81.78943}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -208, y: -81.78943}
   m_SizeDelta: {x: 319.98022, y: 103.101074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006222202

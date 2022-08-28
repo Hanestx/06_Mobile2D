@@ -4,6 +4,8 @@ namespace Mobile2D
     {
         None,
         Start,
-        Game
+        Game,
+        DailyReward,
+        Fight
     }
 }

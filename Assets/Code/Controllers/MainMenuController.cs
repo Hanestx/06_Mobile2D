@@ -1,3 +1,4 @@
+using Mobile2D.Reward;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
@@ -14,7 +15,7 @@ namespace Mobile2D
         {
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
-            _view.Init(StartGame);
+            _view.Init(StartGame, DailyRewardGame);
         }
 
         private MainMenuView LoadView(Transform placeForUi)
@@ -22,6 +23,11 @@ namespace Mobile2D
             GameObject objectView = Object.Instantiate(ResourceLoader.LoadPrefab(_viewPath), placeForUi, false);
             AddGameObjects(objectView);
             return objectView.GetComponent<MainMenuView>();
+        }
+        
+        private void DailyRewardGame()
+        {
+            _profilePlayer.CurrentState.Value = GameState.DailyReward;
         }
 
         private void StartGame()

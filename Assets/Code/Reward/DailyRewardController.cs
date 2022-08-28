@@ -10,15 +10,25 @@ namespace Mobile2D.Reward
     {
         private readonly DailyRewardView _dailyRewardView;
         private List<ContainerSlotRewardView> _slots = new();
-        private bool _isGetReward;
+        private CurrencyController _currencyController;
         private RewardProgressBarView _rewardBarView;
-
-        public DailyRewardController(DailyRewardView dailyRewardView)
+        private bool _isGetReward;
+        
+        public DailyRewardController(Transform placeForUi, DailyRewardView dailyRewardView, CurrencyView currencyView)
         {
             _dailyRewardView = dailyRewardView;
             _rewardBarView = _dailyRewardView.RewardBarView;
+            _currencyController = new CurrencyController(placeForUi, currencyView);
         }
-
+        
+        protected override void OnDispose()
+        {
+            _dailyRewardView.GetRewardButton.onClick.RemoveAllListeners();
+            _dailyRewardView.ResetButton.onClick.RemoveAllListeners();
+            _dailyRewardView.CloseWindow.onClick.RemoveAllListeners();
+            base.OnDispose();
+        }
+        
         public void RefreshView()
         {
             InitSlots();
@@ -66,6 +76,7 @@ namespace Mobile2D.Reward
         {
             _dailyRewardView.GetRewardButton.onClick.AddListener(GetReward);
             _dailyRewardView.ResetButton.onClick.AddListener(ResetTimer);
+            _dailyRewardView.CloseWindow.onClick.AddListener(CloseWindow);
         }
 
         private void ResetTimer()
@@ -136,6 +147,12 @@ namespace Mobile2D.Reward
                 
                 _slots.Add(instanceSlot);
             }
+        }
+        
+        private void CloseWindow()
+        {
+            GameObject.Destroy(_dailyRewardView.gameObject);
+            _currencyController.CloseWindow();
         }
     }
 }

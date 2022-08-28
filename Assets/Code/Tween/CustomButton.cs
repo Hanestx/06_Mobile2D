@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 namespace Mobile2D.Tween
 {
+    [RequireComponent(typeof(AudioSource))]
     public class CustomButton : Button
     {
         public static string ChangeButtonType => nameof(_animationButtonType);
@@ -18,19 +19,27 @@ namespace Mobile2D.Tween
         
         private float _strength = 30.0f;
         private RectTransform _rectTransform;
-        
+        private AudioSource _audioSource;
+
         protected override void Awake()
         {
             base.Awake();
             _rectTransform = GetComponent<RectTransform>();
+            _audioSource = GetComponent<AudioSource>();
         }
         
         public override void OnPointerClick(PointerEventData eventData)
         {
             base.OnPointerClick(eventData);
             ActivateAnimation();
+            ActivateSound();
         }
-        
+
+        private void ActivateSound()
+        {
+            _audioSource.Play();
+        }
+
         private void ActivateAnimation()
         {
             switch (_animationButtonType)

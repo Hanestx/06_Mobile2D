@@ -21,6 +21,7 @@ namespace Mobile2D.Reward
         [SerializeField] private ContainerSlotRewardView _containerSlotRewardView;
         [SerializeField] private Button _getRewardButton;
         [SerializeField] private Button _resetButton;
+        [SerializeField] private Button _closeWindow;
         [SerializeField] private RewardProgressBarView rewardBarView;
 
         public float TimeCooldownDay => _timeCooldownDay;
@@ -32,6 +33,7 @@ namespace Mobile2D.Reward
         public ContainerSlotRewardView SlotRewardView => _containerSlotRewardView;
         public Button GetRewardButton => _getRewardButton;
         public Button ResetButton => _resetButton;
+        public Button CloseWindow => _closeWindow;
         public RewardProgressBarView RewardBarView => rewardBarView;
 
         public int CurrentSlotInActive
