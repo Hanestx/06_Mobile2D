@@ -13,9 +13,8 @@ namespace Mobile2D
         private GameController _gameController;
         private InventoryController _inventoryController;
         private DailyRewardController _dailyRewardController;
-        private FightWindowController _fightWindowController;
-        private CurrencyController _currencyController;
         private StartFightController _startFightController;
+        private FightWindowController _fightWindowController;
 
         private readonly Transform _placeForUi;
         private readonly ProfilePlayer _profilePlayer;
@@ -56,25 +55,36 @@ namespace Mobile2D
                 case GameState.Start:
                     _mainMenuController = new MainMenuController(_placeForUi, _profilePlayer);
                     _touchTrailController = new TouchTrailController();
+                    
                     _gameController?.Dispose();
+                    _dailyRewardController?.Dispose();
                     break;
+                
                 case GameState.Game:
                     _inventoryController = new InventoryController(_itemsConfig);
                     _inventoryController.ShowInventory();
+                    
                     _gameController = new GameController(_profilePlayer);
+                    
                     _startFightController = new StartFightController(_placeForUi, _startFightView, _profilePlayer);
                     _startFightController.RefreshView();
+                    
                     _mainMenuController?.Dispose();
                     _touchTrailController?.Dispose();
                     _fightWindowController?.Dispose();
                     break;
+                
                 case GameState.DailyReward:
-                    _dailyRewardController = new DailyRewardController(_placeForUi, _dailyRewardView, _currencyView);
+                    _dailyRewardController = new DailyRewardController(_placeForUi, _profilePlayer, _dailyRewardView, _currencyView);
                     _dailyRewardController.RefreshView();
+                    
+                    _mainMenuController?.Dispose();
                     break;
+                
                 case GameState.Fight:
                     _fightWindowController = new FightWindowController(_placeForUi, _fightWindowView, _profilePlayer); 
                     _fightWindowController.RefreshView();
+                    
                     _mainMenuController?.Dispose();
                     _startFightController?.Dispose();
                     _gameController?.Dispose();

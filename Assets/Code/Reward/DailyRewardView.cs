@@ -21,7 +21,7 @@ namespace Mobile2D.Reward
         [SerializeField] private ContainerSlotRewardView _containerSlotRewardView;
         [SerializeField] private Button _getRewardButton;
         [SerializeField] private Button _resetButton;
-        [SerializeField] private Button _closeWindow;
+        [SerializeField] private Button _closeButton;
         [SerializeField] private RewardProgressBarView rewardBarView;
 
         public float TimeCooldownDay => _timeCooldownDay;
@@ -33,7 +33,7 @@ namespace Mobile2D.Reward
         public ContainerSlotRewardView SlotRewardView => _containerSlotRewardView;
         public Button GetRewardButton => _getRewardButton;
         public Button ResetButton => _resetButton;
-        public Button CloseWindow => _closeWindow;
+        public Button CloseButton => _closeButton;
         public RewardProgressBarView RewardBarView => rewardBarView;
 
         public int CurrentSlotInActive
@@ -66,6 +66,7 @@ namespace Mobile2D.Reward
         {
             _getRewardButton.onClick.RemoveAllListeners();
             _resetButton.onClick.RemoveAllListeners();
+            _closeButton.onClick.RemoveAllListeners();
         }
     }
 }

@@ -650,7 +650,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 7239848913816567017}
   m_OnClick:
     m_PersistentCalls:
@@ -1325,7 +1325,7 @@ RectTransform:
   m_GameObject: {fileID: 7239848914824243012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7239848915331782149}
@@ -1339,10 +1339,10 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7239848914824243017
 Canvas:
   m_ObjectHideFlags: 0
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   _containerSlotRewardView: {fileID: 7636590630689708776, guid: 684f82f2be264be4989cda0e7ab9219c, type: 3}
   _getRewardButton: {fileID: 984850727188949579}
   _resetButton: {fileID: 4778863376918636376}
-  _closeWindow: {fileID: 8602782833442189819}
+  _closeButton: {fileID: 8602782833442189819}
   rewardBarView: {fileID: 7239848914068398065}
 --- !u!1 &7239848914940813978
 GameObject:
@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7
+  m_text: -1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1949,7 +1949,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TimerNewRewardLabel
+  m_text: 'Next reward: -01 : -03 : -28 : -43'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

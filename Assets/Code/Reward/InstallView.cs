@@ -12,12 +12,12 @@ namespace Mobile2D.Reward
 
         private void Awake()
         {
-            _dailyRewardController = new DailyRewardController(_placeForUi, _dailyRewardView, _currencyView);
+            //_dailyRewardController = new DailyRewardController(_placeForUi, _dailyRewardView, _currencyView);
         }
 
         private void Start()
         {
-            _dailyRewardController.RefreshView();
+            //_dailyRewardController.RefreshView();
         }
     }
 }

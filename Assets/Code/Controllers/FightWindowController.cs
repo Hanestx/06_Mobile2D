@@ -22,9 +22,37 @@ namespace Mobile2D
         public FightWindowController(Transform placeForUi, FightWindowView fightWindowView, ProfilePlayer profilePlayer)
         {
             _profilePlayer = profilePlayer;
-            _fightWindowViewInstance = GameObject.Instantiate(fightWindowView, placeForUi);
+            _fightWindowViewInstance = Object.Instantiate(fightWindowView, placeForUi);
+            AddGameObjects(_fightWindowViewInstance.gameObject);
         }
 
+        protected override void OnDispose()
+        {
+            _fightWindowViewInstance.AddMoneyButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.MinusMoneyButton.onClick.RemoveAllListeners();
+            
+            _fightWindowViewInstance.AddHealthButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.MinusHealthButton.onClick.RemoveAllListeners();
+            
+            _fightWindowViewInstance.AddPowerButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.MinusPowerButton.onClick.RemoveAllListeners();
+            
+            _fightWindowViewInstance.AddCriminalLevelButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.MinusCriminalLevelButton.onClick.RemoveAllListeners();
+            
+            _fightWindowViewInstance.FightButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.LeaveFightButton.onClick.RemoveAllListeners();
+            _fightWindowViewInstance.SkipButton.onClick.RemoveAllListeners();
+
+            _money.Detach(_enemy);
+            _health.Detach(_enemy);
+            _power.Detach(_enemy);
+
+            _profilePlayer.CurrentState.Value = GameState.Game;
+            
+            base.OnDispose();
+        }
+        
         public void RefreshView()
         {
             _enemy = new Enemy("BadCar");
@@ -40,6 +68,7 @@ namespace Mobile2D
 
             _criminal = new Criminal();
             _criminal.Attach(_enemy);
+            
             CheckCriminalLevel();
             SubscribeButtons();
         }
@@ -48,12 +77,16 @@ namespace Mobile2D
         {
             _fightWindowViewInstance.AddMoneyButton.onClick.AddListener(() => ChangeMoney(true));
             _fightWindowViewInstance.MinusMoneyButton.onClick.AddListener(() => ChangeMoney(false));
+            
             _fightWindowViewInstance.AddHealthButton.onClick.AddListener(() => ChangeHealth(true));
             _fightWindowViewInstance.MinusHealthButton.onClick.AddListener(() => ChangeHealth(false));
+            
             _fightWindowViewInstance.AddPowerButton.onClick.AddListener(() => ChangePower(true));
             _fightWindowViewInstance.MinusPowerButton.onClick.AddListener(() => ChangePower(false));
+            
             _fightWindowViewInstance.AddCriminalLevelButton.onClick.AddListener(() => ChangeCriminal(true));
             _fightWindowViewInstance.MinusCriminalLevelButton.onClick.AddListener(() => ChangeCriminal(false));
+            
             _fightWindowViewInstance.FightButton.onClick.AddListener(Fight);
             _fightWindowViewInstance.LeaveFightButton.onClick.AddListener(CloseWindow);
             _fightWindowViewInstance.SkipButton.onClick.AddListener(SkipLevel);
@@ -154,25 +187,6 @@ namespace Mobile2D
             _profilePlayer.CurrentState.Value = GameState.Game;
         }
 
-        protected override void OnDispose()
-        {
-            _fightWindowViewInstance.AddMoneyButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.MinusMoneyButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.AddHealthButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.MinusHealthButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.AddPowerButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.MinusPowerButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.AddCriminalLevelButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.MinusCriminalLevelButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.FightButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.LeaveFightButton.onClick.RemoveAllListeners();
-            _fightWindowViewInstance.SkipButton.onClick.RemoveAllListeners();
-
-            _money.Detach(_enemy);
-            _health.Detach(_enemy);
-            _power.Detach(_enemy);
-            GameObject.Destroy(_fightWindowViewInstance.gameObject);
-            base.OnDispose();
-        }
+       
     }
 }

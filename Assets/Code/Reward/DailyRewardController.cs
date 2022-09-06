@@ -2,30 +2,36 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 
 namespace Mobile2D.Reward
 {
     internal class DailyRewardController : BaseController
     {
+        private readonly ProfilePlayer _profilePlayer;
         private readonly DailyRewardView _dailyRewardView;
         private List<ContainerSlotRewardView> _slots = new();
         private CurrencyController _currencyController;
         private RewardProgressBarView _rewardBarView;
         private bool _isGetReward;
         
-        public DailyRewardController(Transform placeForUi, DailyRewardView dailyRewardView, CurrencyView currencyView)
+        public DailyRewardController(Transform placeForUi,ProfilePlayer profilePlayer, DailyRewardView dailyRewardView, CurrencyView currencyView)
         {
-            _dailyRewardView = dailyRewardView;
+            _profilePlayer = profilePlayer;
+            _dailyRewardView = Object.Instantiate(dailyRewardView, placeForUi);
             _rewardBarView = _dailyRewardView.RewardBarView;
             _currencyController = new CurrencyController(placeForUi, currencyView);
+            
+            AddGameObjects(_dailyRewardView.gameObject);
+            AddController(_currencyController);
         }
         
         protected override void OnDispose()
         {
             _dailyRewardView.GetRewardButton.onClick.RemoveAllListeners();
             _dailyRewardView.ResetButton.onClick.RemoveAllListeners();
-            _dailyRewardView.CloseWindow.onClick.RemoveAllListeners();
+            _dailyRewardView.CloseButton.onClick.RemoveAllListeners();
             base.OnDispose();
         }
         
@@ -76,7 +82,7 @@ namespace Mobile2D.Reward
         {
             _dailyRewardView.GetRewardButton.onClick.AddListener(GetReward);
             _dailyRewardView.ResetButton.onClick.AddListener(ResetTimer);
-            _dailyRewardView.CloseWindow.onClick.AddListener(CloseWindow);
+            _dailyRewardView.CloseButton.onClick.AddListener(CloseWindow);
         }
 
         private void ResetTimer()
@@ -151,8 +157,8 @@ namespace Mobile2D.Reward
         
         private void CloseWindow()
         {
-            GameObject.Destroy(_dailyRewardView.gameObject);
-            _currencyController.CloseWindow();
+            _currencyController?.Dispose();
+            _profilePlayer.CurrentState.Value = GameState.Start;
         }
     }
 }

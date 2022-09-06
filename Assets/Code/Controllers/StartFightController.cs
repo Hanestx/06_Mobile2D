@@ -11,7 +11,8 @@ namespace Mobile2D
         public StartFightController(Transform placeForUi, StartFightView startFightView, ProfilePlayer profilePlayer)
         {
             _profilePlayer = profilePlayer;
-            _startFightViewInstance = GameObject.Instantiate(startFightView, placeForUi);
+            _startFightViewInstance = Object.Instantiate(startFightView, placeForUi);
+            AddGameObjects(_startFightViewInstance.gameObject);
         }
 
         public void RefreshView()
@@ -27,7 +28,6 @@ namespace Mobile2D
         protected override void OnDispose()
         {
             _startFightViewInstance.StartFightButton.onClick.RemoveAllListeners();
-            GameObject.Destroy(_startFightViewInstance.gameObject);
             base.OnDispose();
         }
     }
