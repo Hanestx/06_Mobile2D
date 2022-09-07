@@ -1,7 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b91fe86-628b-44a9-984c-e6d68105d745" name="Changes" comment="" />
+    <list default="true" id="8b91fe86-628b-44a9-984c-e6d68105d745" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.06_Mobile2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.06_Mobile2D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX_button_pressing.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/SFX_button_pressing.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Localization/LocalizationWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Localization/LocalizationWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Notifications/NotificationWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Notifications/NotificationWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/SImpleVectorIcons_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/SImpleVectorIcons_Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/Sample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/Sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Coins.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Coins.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Food.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Food.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Gems.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Gems.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Hammer.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Hammer.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Iron.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Iron.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Wood.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Wood.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Coins.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Food.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Gems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Gems.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Tools.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Wood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/pngwing.com (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/pngwing.com (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_ID_PW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_ID_PW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_map name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_map name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_user information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_user information.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/board.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_exit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_login.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_round.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_under.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_under.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_exp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_exp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_sound.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/map_pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/map_pin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/sound_pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/sound_pin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/stage_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/stage_circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +252,8 @@
       <workItem from="1661695207525" duration="8332000" />
       <workItem from="1662312356343" duration="12771000" />
       <workItem from="1662484187902" duration="4358000" />
+      <workItem from="1662492426579" duration="1746000" />
+      <workItem from="1662539059417" duration="2303000" />
     </task>
     <servers />
   </component>

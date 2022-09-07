@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace Mobile2D
 {
-    public class NotificationWindow : MonoBehaviour
+    internal class NotificationWindow : MonoBehaviour
     {
         private const string AndroidNotificationID = "android_notification_id";
 

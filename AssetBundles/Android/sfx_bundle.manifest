@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 222049725
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 419d0c7ccbb6296eea46e588e4cb592b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Audio/SFX_button_pressing.mp3
+Dependencies: []

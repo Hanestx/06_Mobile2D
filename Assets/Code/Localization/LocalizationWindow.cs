@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
 
 
-public class LocalizationWindow : MonoBehaviour
+internal class LocalizationWindow : MonoBehaviour
 {
     [SerializeField] private Button _ruButton;
     [SerializeField] private Button _engButton;

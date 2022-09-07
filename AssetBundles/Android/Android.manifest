@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2277680523
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sfx_bundle
+      Dependencies: {}
+    Info_1:
+      Name: sprite_bundle
+      Dependencies: {}
