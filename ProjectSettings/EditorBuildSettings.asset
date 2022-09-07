@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/GameCar.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b6a42acba0a0c344ebfd258244b9a3e8, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 5d670f07dc617504fa8ed26e255c8122, type: 2}

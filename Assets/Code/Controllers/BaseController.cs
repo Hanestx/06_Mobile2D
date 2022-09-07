@@ -6,10 +6,10 @@ using Object = UnityEngine.Object;
 
 namespace Mobile2D
 {
-    public abstract class BaseController : IDisposable
+    internal abstract class BaseController : IDisposable
     {
-        private List<BaseController> _baseControllers = new ();
-        private List<GameObject> _gameObjects  = new ();
+        private List<BaseController> _baseControllers = new();
+        private List<GameObject> _gameObjects = new();
         private bool _isDisposed;
 
         public void Dispose()
@@ -21,12 +21,12 @@ namespace Mobile2D
 
             foreach (BaseController baseController in _baseControllers)
                 baseController?.Dispose();
-            
+
             _baseControllers.Clear();
 
             foreach (GameObject cachedGameObject in _gameObjects)
                 Object.Destroy(cachedGameObject);
-            
+
             _gameObjects.Clear();
 
             OnDispose();
@@ -42,6 +42,8 @@ namespace Mobile2D
             _gameObjects.Add(gameObject);
         }
 
-        protected virtual void OnDispose(){}
+        protected virtual void OnDispose()
+        {
+        }
     }
 }

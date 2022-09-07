@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b91fe86-628b-44a9-984c-e6d68105d745" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.06_Mobile2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.06_Mobile2D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/SFX_button_pressing.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/SFX_button_pressing.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Localization/LocalizationWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Localization/LocalizationWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Notifications/NotificationWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Notifications/NotificationWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/SImpleVectorIcons_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/SImpleVectorIcons_Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/Sample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Sample/Sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Coins.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Coins.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Food.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Food.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Gems.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Gems.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Hammer.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Hammer.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Iron.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Iron.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Wood.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/Source/UI_Graphic_Resource_Wood.eps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Coins.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Food.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Gems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Gems.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Iron.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Tools.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/UI_Graphic_Resource_Wood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/pngwing.com (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Resource Vector Graphics/pngwing.com (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_ID_PW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_ID_PW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_coin3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_event3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_exp3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_login3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_map name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_map name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_option4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_select3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_user information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/box_user information.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/box/circle_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/board.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_exit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_login.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_round.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_under.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/button/button_triangle_under.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/icons/icon_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_exp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_exp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/bar_sound.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/map_pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/map_pin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/sound_pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/sound_pin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/stage_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/stage_circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/simple UI &amp; icons/other/user_name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.notifications@2.0.2/Runtime/Android/AndroidNotification.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de1f8ef4975b4eacbeb0accc1b22c9b02a000/bc/580d7233/PathType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../WorkUnity/UnityProjects/IlyaFallGuys/Assets/Scripts/Bounce.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1212ad1dec44ce7b7147976b91869c3157800/a7/15260c90/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.1.4/Runtime/Purchasing/IStoreListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@3.7.5/Runtime/Advertisement/IUnityAdsListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mobile.notifications@2.0.2/Runtime/iOS/iOSNotification.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.1.4/Runtime/Purchasing/ConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DGFsJtV1XLlJPDt9UDqm6yVgvI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b91fe86-628b-44a9-984c-e6d68105d745" name="Changes" comment="" />
+      <created>1660317724143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660317724143</updated>
+      <workItem from="1660317738754" duration="7318000" />
+      <workItem from="1660488978288" duration="901000" />
+      <workItem from="1660626783546" duration="21623000" />
+      <workItem from="1660747517059" duration="1074000" />
+      <workItem from="1660756778669" duration="3549000" />
+      <workItem from="1660828594944" duration="4275000" />
+      <workItem from="1660894081317" duration="7940000" />
+      <workItem from="1660927515097" duration="2166000" />
+      <workItem from="1661011754849" duration="9896000" />
+      <workItem from="1661183364339" duration="4467000" />
+      <workItem from="1661195213921" duration="1346000" />
+      <workItem from="1661237321433" duration="5768000" />
+      <workItem from="1661274549151" duration="2512000" />
+      <workItem from="1661404116701" duration="4516000" />
+      <workItem from="1661489978405" duration="20652000" />
+      <workItem from="1661595376139" duration="486000" />
+      <workItem from="1661595943554" duration="7203000" />
+      <workItem from="1661609669155" duration="100000" />
+      <workItem from="1661609923195" duration="510000" />
+      <workItem from="1661682425449" duration="4509000" />
+      <workItem from="1661695207525" duration="8332000" />
+      <workItem from="1662312356343" duration="12771000" />
+      <workItem from="1662484187902" duration="4358000" />
+      <workItem from="1662492426579" duration="1746000" />
+      <workItem from="1662539059417" duration="2303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
